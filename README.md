@@ -31,6 +31,7 @@ This project replicates the UI structure of Netflix’s homepage with modern lay
 ## 📷 Preview
 
 <img width="1752" height="1456" alt="Screenshot 2026-02-15 212343" src="https://github.com/user-attachments/assets/7585d471-0d73-480b-af2c-631831ba2126" />
+<img width="1853" height="483" alt="Screenshot 2026-02-15 213212" src="https://github.com/user-attachments/assets/ab893e20-febc-4dc9-a0eb-d3d04f01fb00" />
 
 ---
 
