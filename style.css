@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60vw;
+    height: 100px;
+    margin: auto;
+}
+
+nav img {
+    z-index: 10;
+    position: relative;
+}
+
+nav button {
+    z-index: 10;
+    position: relative;
+}
+
+.English {
+    border: 1px solid white;
+    color: white;
+    background-color: rgba(23, 23, 23, 0.7);
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Sign {
+    border: 1px solid white;
+    color: white;
+    background-color: red;
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.main {
+    background-image: url(assets/bg.jpg);
+    height: 644px;
+    background-size: max(1200px, 100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.main .box {
+    background-color: black;
+    height: 644px;
+    width: 100%;
+    opacity: 0.7;
+    top: 0;
+    position: absolute;
+}
+
+.content {
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Martel Sans, sans-serif;
+    gap: 23px;
+    height: calc(100% - 100px);
+    padding: 0 30px;
+}
+
+.content>:nth-child {
+    font-weight: 1000;
+    font-size: 48px;
+    text-align: center;
+}
+
+.content>:nth-child(2) {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+
+.content>:nth-child(3) {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+.input-box input {
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    padding: 7px 101px 8px 14px;
+    color: white;
+    font-size: 16px;
+}
+
+.input-box button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 5px 33px;
+    border: 1px solid white;
+    font-size: 16px;
+    font-family: poppins, sans-serif;
+    cursor: pointer;
+}
+
+.seperation {
+    height: 7px;
+    background-color: rgb(62, 61, 61);
+    position: relative;
+    z-index: 20;
+}
+
+.first {
+    color: white;
+    display: flex;
+    max-width: 70vw;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    font-family: Martel Sans, sans-serif;
+    position: relative;
+    padding: 0px 20px;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+}
+
+.firstimg {
+    position: relative;
+}
+
+.firstimg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.firstimg video {
+    object-fit: cover;
+    width: 555px;
+    right: 0;
+    position: absolute;
+    top: 54px;
+}
+
+.faq {
+    background: black;
+    padding: 34px;
+    color: white;
+}
+
+.faq h2 {
+    color: white;
+    font-family: Martel Sans, sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 48px;
+    padding: 10px 20px;
+}
+
+.faqbox {
+    color: white;
+    max-width: 60vw;
+    margin: 34px auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(52, 51, 51);
+    background-color: rgb(52, 51, 51);
+    padding: 24px;
+    font-family: Ubuntu, sans-serif;
+    cursor: pointer;
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.faqbox:hover {
+    background-color: rgb(85, 84, 84);
+    /* color: white; */
+}
+
+footer {
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+    padding: 40px;
+}
+
+.ques {
+    color: white;
+    padding: 34px 0;
+    font-family: Martel Sans, sans-serif;
+}
+
+.footer-links {
+    font-family: Martel Sans, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 0;
+}
+
+
+@media screen and (max-width: 1500px) {
+
+    nav {
+        max-width: 90vw;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+
+    .firstimg img{
+        width: 305px;
+    }
+
+    .firstimg video{
+        width: 305px;
+        
+    }
+
+    footer {
+    max-width: 85vw;
+    }
+    
+    .footer-links{
+        grid-template-columns: 1fr 1fr;
+        gap: 2;
+    }
+
+}
